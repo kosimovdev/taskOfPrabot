@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./src/assets/icons/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- build css -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>PRabot</title>
+</head>
+
+<body stlyle="font-family: 'Roboto'">
+    <header class="relative w-full top-[77px]">
+        <div class="container mx-auto px-5">
+            <nav class="flex justify-between items-center w-full h-28">
+                <a href="#"><img class="hover:rotate-[360deg] duration-300" src="./src/assets/icons/logo.svg"
+                        alt="logo" /></a>
+                <ul class="flex gap-x-[106px] items-center">
+                    <li class="text-[#959595] text-[17px] leading-[170%] hover:text-black">
+                        <a href="#">Daftar Akun</a>
+                    </li>
+                    <li>
+                        <button
+                            class="bg-[#7AB674] hover:text-green-500 hover:border-2 border-green-500 hover:bg-white duration-200 active:bg-lime-500 active:text-white w-[69px] h-[69px] grid place-content-center text-white">
+                            <i data-feather="shopping-bag"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header section -->
+    <!-- main section -->
+    <main>
+        <section id="intro" class="pt-[250px] bg-[url('./src/assets/images/bg-img.png')] bg-no-repeat relative z-30">
+            <div class="container mx-auto px-5">
+                <div class="flex items-start gap-x-[100px]">
+                    <div class="box-left p-2 w-[497px]">
+                        <h1 class="text-[96px] font-medium leading-[95%] text-[#273029] mb-[43px]">
+                            Alfonso Wardrobe
+                            <span class="font-black text-[#7AB674]">2 DOOR</span>
+                        </h1>
+                        <p class="text-[#959595] text-lg mb-[42px]">
+                            Kini hadir sebagai lemari pakaian dengan desain yang minimalis
+                            serta cenderung terkesan elegan.
+                        </p>
+                        <button
+                            class="flex py-5 px-[35px] text-white items-center gap-x-[35px] font-black bg-[#7AB674]">
+                            BELI SEKARANG <span><i data-feather="arrow-right"></i></span>
+                        </button>
+                    </div>
+                    <div class="box-right flex items-start -translate-y-12 p-2 gap-x-[51px]">
+                        <img src="./src/assets/images/shkaf.png" alt="shkaf" />
+                        <ul class="text-[#959595] mt-[223px]">
+                            <li>
+                                <h3 class="font-bold text-black text-2xl mb-[21px] max-w-[120px]">
+                                    Ukuran Produk
+                                </h3>
+                            </li>
+                            <li>
+                                <p>Panjang</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">85 cm</h3>
+                            </li>
+                            <li>
+                                <p>Lebar</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">56 cm</h3>
+                            </li>
+                            <li>
+                                <p>Tinggi</p>
+                                <h3 class="text-[#7AB674] text-[32px] font-black">180 cm</h3>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="introBottom" class="h-[583px] -top-[350px] bg-section relative">
+            <div class="bgWrapper flex h-[583px]">
+                <div class="left-bg w-[25%] h-[100%]"></div>
+                <div class="right-bg w-[75%] h-[100%] bg-[#B09B8C]">
+                    <img src="./src/assets/images/shadowcCircle.svg" alt="shadow"
+                        class="absolute z-40 left-[37%] top-[35%]">
+                    <img src="./src/assets/icons/controller.svg" alt="controller"
+                        class="absolute z-50 left-[51%] top-[45%]">
+                    <div class="flex absolute bottom-[25%] left-[21.3%]">
+                        <button class="py-[23px] px-[21px] text-white bg-[#B09B8C]">
+                            <span><i data-feather="arrow-left"></i>
+                        </button>
+                        <button class="py-[23px] px-[21px] text-[#B09B8C] bg-white">
+                            <span><i data-feather="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper absolute top-0 w-full">
+                <div class="container mx-auto px-5">
+                    <div class="mainWrapper flex relative">
+                        <div class="leftWrapper">
+                            <div class="line h-[413px] w-1 bg-[#C9C9C9] mt-[41px]">
+                                <span class="w-2 bg-[#B09B8C] h-[49px] block relative top-[26px]"></span>
+                            </div>
+                            <h2 class="text-[34px] leading-[95%] verticalText"><span class="text-[#7AB674]">01</span>/04
+                            </h2>
+                        </div>
+                        <div
+                            class="rightWrapper flex gap-x-[35px] text-[18px] leading-[170%] font-black text-[#273029] absolute bottom-[-30%] left-[28%]">
+                            <div class="text-center">
+                                <img class="w-[185px] h-[182px] mb-[40px]" src="./src/assets/images/raunded-img_1.png"
+                                    alt="img">
+                                <h3>LACI ATAS</h3>
+                            </div>
+                            <div class="text-center">
+                                <img class="w-[185px] h-[182px] mb-[40px]" src="./src/assets/images/raunded_img_2.png"
+                                    alt="img">
+                                <h3>LACI BAWAH</h3>
+                            </div>
+                            <div class="text-center">
+                                <img class="w-[185px] h-[182px] mb-[40px]" src="./src/assets/images/raunded_img_3.png"
+                                    alt="img">
+                                <h3>GANTUNGAN</h3>
+                            </div>
+                            <div class="text-center">
+                                <img class="w-[185px] h-[182px] mb-[40px]" src="./src/assets/images/raunded_img_4.png"
+                                    alt="img">
+                                <h3>HANDLE</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- section -->
+    <section id="introCenter">
+        <div class="container mx-auto">
+            <div class="wrapper-box flex justify-between">
+                <div class="left-box w-[650px]">
+                    <h6 class="text-[20px] mb-[45px] leading-[95%] text-[#7AB674] tracking-[0.2em] font-black">Detail
+                        Produk</h6>
+                    <h1 class="text-[64px] leading-[95%] text-[#273029] mb-[32px] font-medium">Alfonso Wardrobe <br>
+                        <span class="text-[#B09B8C]">2 Doors</span>
+                    </h1>
+                    <p class="text-[18px] leading-[170%] text-[#959595]">Merupakan pilihan lemari yang minimalis serta
+                        solusi tepat bagi anda yang memiliki ruang terbatas,
+                        karena
+                        bentuknya yang ramping dan tinggi sehingga akan menambah keindahan ruangan dan membuat ruangan
+                        anda
+                        terlihat lebih luas juga lapang dengan <span>tetap terkesan elegan.</span></p>
+                </div>
+                <div class="right-box w-[531px] h-[469px] bg-white py-[78px] px-[55px] translate-y-[8rem] z-10">
+                    <h1 class="text-[48px] leading-[95%] text-[#7AB674] font-black mb-[55px]">Eco Furniture</h1>
+                    <div class="flex gap-x-[23px] mb-[32px]">
+                        <img src="./src/assets/icons/plus.svg" alt="+">
+                        <h3 class="text-[24px] leading-[28px]">Harga lebih terjangkau</h3>
+
+                    </div>
+                    <div class="w-[352px] ml-[50px] border-t-2 border-solid border-[#EEEEEE]"></div>
+                    <div class="flex gap-x-[23px] my-[32px]">
+                        <img src="./src/assets/icons/plus.svg" alt="+">
+                        <h3 class="text-[24px] leading-[28px]">Tidak ada bahan kimia keras</h3>
+                    </div>
+                    <div class="w-[352px] ml-[50px]  border-t-2 border-solid border-[#EEEEEE]"></div>
+
+                    <div class="flex gap-x-[23px] mt-[32px]">
+                        <img src="./src/assets/icons/plus.svg" alt="+">
+                        <h3 class="text-[24px] leading-[28px]">Semua berbahan alami</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper flex justify-end relative">
+            <div class="flex absolute left-[25.5%]">
+                <button class="py-[23px] px-[21px] text-white bg-[#B09B8C]">
+                    <span><i data-feather="arrow-left"></i>
+                </button>
+                <button class="py-[23px] px-[21px] text-[#B09B8C] bg-white">
+                    <span><i data-feather="arrow-right"></i>
+                </button>
+            </div>
+            <img class="w-[1276px]" src="./src/assets/images/bigShkop.jpg" alt="shkop">
+        </div>
+    </section>
+<!-- center section -->
+    <section id="centerSection">
+        <div class="container">
+            
+        </div>
+    </section>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
